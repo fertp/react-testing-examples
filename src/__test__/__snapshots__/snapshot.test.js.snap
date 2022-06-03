@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot using render @testing-library 1`] = `
+<div>
+  <header>
+    <h1>
+      Soy un header
+    </h1>
+  </header>
+</div>
+`;

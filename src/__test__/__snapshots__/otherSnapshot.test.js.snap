@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot with testing-library 1`] = `
+<div>
+  <header
+    data-testid="header"
+  >
+    <h1>
+      Soy un Títulos
+    </h1>
+  </header>
+</div>
+`;
