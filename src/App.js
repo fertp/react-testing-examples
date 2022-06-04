@@ -1,4 +1,6 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
+import ComponentWithContext from './components/ComponentWithContext'
+import { AppProvider } from './contexts/AppContext'
 
 const App = () => {
 
@@ -9,13 +11,16 @@ const App = () => {
   }
 
   return (
-    <div>
+    <AppProvider>
       <h1>Aprendiendo testing library</h1>
       <button onClick={handleClick}>
         mostrar texto
       </button>
       { showText && <p>Aparece un string</p> }
-    </div>
+      <hr/>
+      <h2>Context example</h2>
+      <ComponentWithContext/>
+    </AppProvider>
   );
 }
 
